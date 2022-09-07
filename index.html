@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather">
+            <h1 class="title">OpenWeather API</h1>
+            <div class="weather-data">
+                <div class="weather-data__tabs">
+                    <div class="weather-data__tabs-item active">Kiev</div>
+                    <div class="weather-data__tabs-item">London</div>
+                    <div class="weather-data__tabs-item">NewYork</div>
+                </div>
+                <div class="wrapper">
+                    <div class="wrap">
+                        <div class="weather-data__body">
+                            <div class="weather-data__date"></div>
+                            <div class="weather-data__part-days"></div>
+                        </div>
+                        <div class="weather-data__temperature">
+                            <div class="weather-data__temperature-temp"></div>
+                            <div class="weather-data__temperature-symbol">
+                                <div class="weather-data__temperature-item"></div>
+                                <div class="weather-data__temperature-item"></div>
+                            </div>
+                        </div>
+                        <div class="weather-data__feeling"></div>
+                        <div class="weather-data__wind"></div>
+                    </div>
+                    <div class="wrap">
+                        <div class="weather-image">
+                            <div class="weather-image__icon"></div>
+                            <div class="weather-image__title"></div>
+                        </div>
+                        <div class="weather-data__sunrise"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
